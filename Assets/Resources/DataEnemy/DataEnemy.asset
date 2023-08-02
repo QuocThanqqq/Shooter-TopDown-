@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f23122c10a1094e85a81269bd94fc8c0, type: 3}
+  m_Name: DataEnemy
+  m_EditorClassIdentifier: 
+  Enemys:
+  - Name: Zombie
+    health: 50
+    dame: 4
+  - Name: Zombie2
+    health: 60
+    dame: 4
+  - Name: Zombie3
+    health: 30
+    dame: 4
+  - Name: Zombie4
+    health: 40
+    dame: 10
+  - Name: Zombie5
+    health: 100
+    dame: 40

@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03580c786f8c547229da2a025f4bd907, type: 3}
+  m_Name: DataEquip
+  m_EditorClassIdentifier: 
+  datas:
+  - id: Body_A
+    name: A
+  - id: Body_B
+    name: B
+  - id: Body_C
+    name: C
+  - id: Body_D
+    name: D
+  - id: Body_E
+    name: E
+  - id: Body_F
+    name: F
+  - id: Body_G
+    name: G
+  - id: Body_H
+    name: H
+  - id: Body_I
+    name: I
+  - id: Body_J
+    name: J
+  - id: Body_K
+    name: K
+  - id: Extra_A
+    name: A
+  - id: Extra_B
+    name: B
+  - id: Extra_C
+    name: C
+  - id: Extra_D
+    name: D
+  - id: Extra_E
+    name: E
+  - id: Extra_F
+    name: F
+  - id: Head_A1
+    name: A1
+  - id: Head_A2
+    name: A2
+  - id: Head_A3
+    name: A3
+  - id: Head_B1
+    name: B1
+  - id: Head_B2
+    name: B2
+  - id: Head_B3
+    name: B3
+  - id: Head_B4
+    name: B4
+  - id: Head_B5
+    name: B5
+  - id: Head_B6
+    name: B6
+  - id: Head_B7
+    name: B7
+  - id: Head_C1
+    name: C1
+  - id: Head_C2
+    name: C2
+  - id: Head_C3
+    name: C3
+  - id: Head_C4
+    name: C4
+  - id: Head_C5
+    name: C5
+  - id: Head_C6
+    name: C6
+  - id: Head_C7
+    name: C7
+  - id: Head_D1
+    name: D1
+  - id: Head_D2
+    name: D2
+  - id: Head_D3
+    name: D3
+  - id: Head_D4
+    name: D4
+  - id: Head_D5
+    name: D5
+  - id: Head_E1
+    name: E1
+  - id: Head_E2
+    name: E2
+  - id: Head_E3
+    name: E3
+  - id: Head_E4
+    name: E4
+  - id: Head_E5
+    name: E5
+  - id: Head_F1
+    name: F1
+  - id: Head_F2
+    name: F2
+  - id: Head_F3
+    name: F3
+  - id: Head_F4
+    name: F4
+  - id: Head_G1
+    name: G1
+  - id: Head_G2
+    name: G2
+  - id: Head_G3
+    name: G3
+  - id: Head_G4
+    name: G4
+  - id: Head_H1
+    name: H1
+  - id: Head_H2
+    name: H2
+  - id: Head_I1
+    name: I1
+  - id: Head_I2
+    name: I2
+  - id: Head_J1
+    name: J1
+  - id: Head_J2
+    name: J2
+  - id: Head_J3
+    name: J3
+  - id: Head_J4
+    name: J4
+  - id: Head_K1
+    name: K1
+  - id: Head_K2
+    name: K2
+  - id: Head_K3
+    name: K3
+  - id: Head_K4
+    name: K4
+  - id: Head_L1
+    name: L1
+  - id: Head_L2
+    name: L2
+  - id: Head_L3
+    name: L3
+  - id: Head_L4
+    name: L4
+  - id: Head_L5
+    name: L5
+  - id: Legs_A
+    name: A
+  - id: Legs_B
+    name: B
+  - id: Legs_C
+    name: C
