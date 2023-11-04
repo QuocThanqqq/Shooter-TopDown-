@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -15,10 +16,9 @@ public class PlayerSystem : MonoBehaviour
     private DataEnemys mEnemy;
     public ParticleSystem particle;
     public ParticleSystem particleHealth;
-
-
+    
+    
     public Animator animator;
-
     public  static int numberDNA;
     public Text _numberDNA;
     private void Start()
@@ -44,7 +44,7 @@ public class PlayerSystem : MonoBehaviour
             animator.Play("Death");
             StartCoroutine(TimeDelayAnimation());
             Debug.Log("Done");
-          
+            
         }
     }
 
@@ -74,6 +74,8 @@ public class PlayerSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         Destroy(gameObject);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+      
     }
 
 }
